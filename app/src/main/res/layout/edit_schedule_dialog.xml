@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginBottom="@dimen/abc_edit_text_inset_bottom_material"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/set_time"
+            android:id="@+id/tvSetTime" />
+
+        <EditText
+            android:layout_marginBottom="@dimen/abc_edit_text_inset_bottom_material"
+            android:background="@color/edit_text_background"
+            android:id="@+id/etSetTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/set_aud"
+            android:id="@+id/tvSetAud" />
+        <EditText
+            android:layout_marginBottom="@dimen/abc_edit_text_inset_bottom_material"
+            android:background="@color/edit_text_background"
+            android:id="@+id/etSetAud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/set_subj"
+            android:id="@+id/tvSetSubj" />
+        <EditText
+            android:layout_marginBottom="@dimen/abc_edit_text_inset_bottom_material"
+            android:background="@color/edit_text_background"
+            android:id="@+id/etSetSubj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/set_employee_lastname"
+            android:id="@+id/tvSetEmployeeLastName" />
+        <EditText
+            android:layout_marginBottom="@dimen/abc_edit_text_inset_bottom_material"
+            android:background="@color/edit_text_background"
+            android:id="@+id/etSetEmpLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/set_employee_firstname"
+            android:id="@+id/tvSetEmployeeFirstName" />
+        <EditText
+            android:layout_marginBottom="@dimen/abc_edit_text_inset_bottom_material"
+            android:background="@color/edit_text_background"
+            android:id="@+id/etSetEmpFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/set_employee_middlename"
+            android:id="@+id/tvSetEmployeeMiddleName" />
+        <EditText
+            android:layout_marginBottom="@dimen/abc_edit_text_inset_bottom_material"
+            android:background="@color/edit_text_background"
+            android:id="@+id/etSetEmpMiddleName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/set_group"
+            android:id="@+id/tvSetGroup" />
+        <EditText
+            android:layout_marginBottom="@dimen/abc_edit_text_inset_bottom_material"
+            android:background="@color/edit_text_background"
+            android:id="@+id/etSetGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/set_note"
+            android:id="@+id/tvSetNote" />
+        <EditText
+            android:layout_marginBottom="@dimen/abc_edit_text_inset_bottom_material"
+            android:background="@color/edit_text_background"
+            android:id="@+id/etSetNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/set_subgroup"
+            android:id="@+id/tvSetSubGroup" />
+        <Spinner
+            android:id="@+id/setSubGroupSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/subgroup_array"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/set_weeknums"
+            android:id="@+id/tvSetWeekNums" />
+
+        <CheckBox
+            android:id="@+id/firstWeek"
+            android:text="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:id="@+id/secondWeek"
+            android:text="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:id="@+id/thirdWeek"
+            android:text="3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:id="@+id/fourthWeek"
+            android:text="4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginBottom="@dimen/abc_edit_text_inset_bottom_material"
+            android:layout_marginTop="@dimen/abc_edit_text_inset_bottom_material"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/set_ltype"
+            android:id="@+id/tvSetLessonType" />
+
+        <EditText
+            android:layout_marginBottom="@dimen/abc_edit_text_inset_bottom_material"
+            android:layout_marginTop="@dimen/abc_edit_text_inset_bottom_material"
+            android:background="@color/edit_text_background"
+            android:id="@+id/etSetLessonType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

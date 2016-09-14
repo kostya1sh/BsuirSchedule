@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="menu_background">#fefffbfd</color>
+    <color name="red">#dd0001</color>
+    <color name="green">#12ff09</color>
+    <color name="yellow">#fff801</color>
+    <color name="blue">#0b32ff</color>
+    <color name="widget_background">#ffffff</color>
+    <color name="widget_text_color">#000000</color>
+    <color name="widget_no_lessons_color">#8e8e8e</color>
+    <color name="widget_underlying_line_color">#0b32ff</color>
+    <color name="widget_background_light">#56eaffce</color>
+    <color name="edit_text_background">#e2e1e1</color>
+    <color name="edit_text_background_darker">#bcbaba</color>
+</resources>

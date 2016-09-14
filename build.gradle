@@ -1,0 +1,28 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        maven {
+            url "http://172.16.233.148:8081/nexus/content/groups/public"
+        }
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.2.3'
+        classpath "org.sonarqube.gradle:gradle-sonarqube-plugin:1.0"
+    }
+}
+
+
+allprojects {
+    repositories {
+        maven {
+            url "http://172.16.233.148:8081/nexus/content/groups/public"
+        }
+    }
+}
+
+

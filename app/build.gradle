@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+apply plugin: "org.sonarqube"
+
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "by.bsuir.schedule"
+        minSdkVersion 11
+        targetSdkVersion 22
+        versionCode 3
+        versionName "0.4.3"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    sonarqube {
+        properties {
+            property "sonar.projectName", "Android Project"
+            property "sonar.projectKey", "org.sonarqube:java-gradle-simple"
+            property "sonar.projectVersion", "0.3.0"
+            property "sonar.android.lint.report", "build/outputs/lint-results.xml"
+            property "sonar.language", "java"
+            property "sonar.sources", "\\src"
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:22.2.1'
+}

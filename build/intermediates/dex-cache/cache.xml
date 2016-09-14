@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\kostya\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="C:\bsuirAndroidScheduleLatest\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-22.2.1_78fd8aaf5b510ac5a057b606df51bb491be035c5\classes.dex" />
+    </item>
+    <item
+        jar="C:\bsuirAndroidScheduleLatest\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="C:\bsuirAndroidScheduleLatest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-22.2.1_fdc8739c1fe3687c8102cedf3cc049a347b9c309\classes.dex" />
+    </item>
+    <item
+        jar="C:\bsuirAndroidScheduleLatest\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="C:\bsuirAndroidScheduleLatest\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-4e3d11c4e7439f29a64e81331a81d34c1533533c.jar" />
+    </item>
+    <item
+        jar="C:\bsuirAndroidScheduleLatest\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="C:\bsuirAndroidScheduleLatest\app\build\intermediates\pre-dexed\debug\classes-fdc8739c1fe3687c8102cedf3cc049a347b9c309.jar" />
+    </item>
+    <item
+        jar="C:\Users\kostya\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="C:\bsuirAndroidScheduleLatest\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-78fd8aaf5b510ac5a057b606df51bb491be035c5.jar" />
+    </item>
+    <item
+        jar="C:\bsuirAndroidScheduleLatest\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="a1429b165650c1c278aa361d9a24142140cab7a9">
+        <dex dex="C:\bsuirAndroidScheduleLatest\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_770934ad953b3934f91dd07c645277d996ae9538\classes.dex" />
+    </item>
+    <item
+        jar="C:\bsuirAndroidScheduleLatest\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="C:\bsuirAndroidScheduleLatest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-22.2.1_8dc726aa474e936d89e9aa89c7f9175812048ec9\classes.dex" />
+    </item>
+    <item
+        jar="C:\bsuirAndroidScheduleLatest\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="C:\bsuirAndroidScheduleLatest\app\build\intermediates\pre-dexed\debug\classes-8dc726aa474e936d89e9aa89c7f9175812048ec9.jar" />
+    </item>
+    <item
+        jar="C:\bsuirAndroidScheduleLatest\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="C:\bsuirAndroidScheduleLatest\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.1_4e3d11c4e7439f29a64e81331a81d34c1533533c\classes.dex" />
+    </item>
+    <item
+        jar="C:\bsuirAndroidScheduleLatest\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="22581d8af44aa6f2b884cd8eebb67d3629f7d7ad">
+        <dex dex="C:\bsuirAndroidScheduleLatest\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_3c90d30f8a2f6d56f76e1169a3e2358a6ed38fa4\classes.dex" />
+    </item>
+
+</items>

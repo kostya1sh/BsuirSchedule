@@ -1,0 +1,195 @@
+<resources>
+    <string name="app_name">Расписание 2.0 БГУИР </string>
+
+    <string name="button_edit">Редактировать</string>
+    <string name="button_cancel">Отмена</string>
+    <string name="button_yes">Да</string>
+    <string name="button_add">Добавить</string>
+    <string name="button_no">Нет</string>
+    <string name="title_edit">Редактирование</string>
+    <string name="title_choose_action">Выберите действие</string>
+    <string name="title_confirm_deleting">Удаление</string>
+    <string name="title_add">Добавление</string>
+    <string name="message_confirm_deleting">Вы точно хотите удалить эту запись?</string>
+    <array name="choose_action_if_hidden">
+        <item>Удалить</item>
+        <item>Редактировать</item>
+        <item>Скрыть</item>
+    </array>
+    <array name="choose_action_if_not_hidden">
+        <item>Удалить</item>
+        <item>Редактировать</item>
+        <item>Показывать</item>
+    </array>
+
+    <string name="title_section1">Расписание на сегодня</string>
+    <string name="title_section2">Расписание экзаменов</string>
+    <string name="title_section3">Скачать расписание</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="configuration_for_widget">Настройка виджета</string>
+    <string name="widget_settings">Установка параметров виджета</string>
+    <string name="add_widget">Добавить виджет</string>
+    <string name="select_subgroup">Выберите подгруппу</string>
+    <string name="default_subgroup">defaultSubGroup</string>
+    <string name="should_select_subgroup">Необходимо выбрать подгруппу</string>
+    <string name="warning">Внимание</string>
+    <string name="message_about_widget">В тестовом режиме был добавлен виджет.</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="for_today">На сегодня</string>
+    <string name="title_activity_first_choose">Расписание БГУИР</string>
+    <string name="who_are_you">Скачать расписание</string>
+    <string name="label_for_student">студента</string>
+    <string name="label_for_employee">преподавателя</string>
+    <string name="schedule_for_student_group">Расписание для группы</string>
+    <string name="enter_student_group_name">Введите номер группы</string>
+    <string name="schedule_for_employee">Расписание для преподавателя</string>
+    <string name="downloaded_schedules">Скачанное расписание</string>
+    <string name="enter_employee_name">Введите имя преподавателя</string>
+    <string name="download_schedule">Скачать расписание</string>
+    <string name="select_schedule">Выбрать расписание</string>
+    <string name="employee_name">Преподаватель</string>
+    <string name="group_name">Группа</string>
+    <string name="last_updated">Дата обнов.</string>
+    <string name="delete">Удалить</string>
+    <string name="refresh">Обновить</string>
+    <string name="confirm_delete_message">Вы действительно хотите удалить расписание?</string>
+    <string name="application_deprecated">Доступна новая версия приложения. Обновить?</string>
+    <string name="error_while_deleting_file">Ошибка при удалении файла</string>
+    <string name="error_while_downloading_schedule">Проблема при загрузке расписания</string>
+    <string name="error_while_updating_schedule">Проблема при обновлении расписания. Необходимо удалить и скачать заново.</string>
+
+    <string name="not_appropriate_student_group">Неправильный номер группы</string>
+    <string name="not_schedule_for_your_group">Не найдено расписание для вашей группы</string>
+
+    <string name="connection_timeout">Не удалось загрузить расписание</string>
+    <string name="no_connection_to_network">Для скачивания расписания необходимо подключиться к сети</string>
+    <string name="can_not_load_list_of_employees">Не удалось загрузить список преподавателей</string>
+    <string name="can_not_load_list_of_student_groups">Не удалось загрузить список групп</string>
+    <string name="should_select_employee">Необходимо выбрать преподавателя!</string>
+    <string name="not_found_schedule_for_you">Не найдено расписание для Вас</string>
+    <string name="update_needed">Обновление</string>
+    <string name="update_message">Доступно обновление. Обновить?</string>
+    <string name="update_schedule_message">В вашем расписании произошли изменения. Обновить расписание?</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_schedule_for_group">Расписание БГУИР</string>
+    <string name="title_activity_schedule_for_employee">Расписание БГУИР</string>
+
+    <string name="setting_file_name">Settings</string>
+    <string name="default_group_field_in_settings">defaultGroup</string>
+    <string name="default_employee_field_in_settings">defaultEmployee</string>
+    <string name="employee_shortcut">Преподав.</string>
+    <string name="email_for_reports">mailto:iis-support@bsuir.by</string>
+    <string name="chooser_title">Выберите приложение</string>
+    <string name="email_report_title">Отзыв</string>
+    <string name="downloading">Скачивание</string>
+
+    <string name="empty_lessons">Сегодня занятий нет</string>
+    <string name="empty_exams">Расписание экзаменов отсутствует. Попробуйте обновить расписание</string>
+
+    <string name="entire_group">Вся группа</string>
+    <string name="first_sub_group">1 подгр</string>
+    <string name="second_sub_group">2 подгр</string>
+    <string name="all_week_number">Все недели</string>
+    <string name="first_week_number">1 неделя</string>
+    <string name="second_week_number">2 неделя</string>
+    <string name="third_week_number">3 неделя</string>
+    <string name="fourth_week_number">4 неделя</string>
+
+    <string-array name="day_of_week">
+        <item>Сегодня</item>
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+        <item>Воскресенье</item>
+    </string-array>
+    <string-array name="day_of_week_for_widget">
+        <item>Сегодня</item>
+        <item>Понедел</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+        <item>Воскрес</item>
+    </string-array>
+    <string-array name="day_of_week_abbrev">
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+        <item>Вс</item>
+    </string-array>
+    <string-array name="sub_group_number">
+        <item>Вся группа</item>
+        <item>1 подгр</item>
+        <item>2 подгр</item>
+    </string-array>
+    <string-array name="week_number_array">
+        <item>Все недели</item>
+        <item>1 неделя</item>
+        <item>2 неделя</item>
+        <item>3 неделя</item>
+        <item>4 неделя</item>
+    </string-array>
+    <string-array name="navigation_labels_array">
+        <item>Расписание на сегодня</item>
+        <item>Расписание экзаменов/заочников</item>
+        <item>Выбрать расписание</item>
+        <item>Отправить отзыв</item>
+    </string-array>
+
+    <string name="in_progress">В разработке</string>
+    <string name="title_activity_schedule_widget_configure">Конфигурирование виджета</string>
+
+    <string name="date_format_template">dd.MM.yyyy</string>
+
+
+    <string name="set_time">Время:</string>
+    <string name="set_aud">Ауд.:</string>
+    <string name="set_employee_firstname">Имя:</string>
+    <string name="set_employee_lastname">Фамилия:</string>
+    <string name="set_employee_middlename">Отчество:</string>
+    <string name="set_group">Группа:</string>
+    <string name="set_subj">Дисциплина:</string>
+    <string name="set_note">Примечание:</string>
+    <string name="set_subgroup">Подгруппа:</string>
+    <string name="set_weeknums">Недели:</string>
+    <string name="set_hidden">Скрыть текущую запись после добавления:</string>
+    <string name="set_ltype">Тип дисциплины:</string>
+    <string name="set_date">Дата:</string>
+
+
+
+
+    <string-array name="subgroup_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="ltype_array">
+        <item>ЛК</item>
+        <item>ПЗ</item>
+        <item>ЛР</item>
+    </string-array>
+
+    <string-array name="choose_action_array">
+        <item>Скрыть</item>
+        <item>Удалить</item>
+        <item>Редактировать</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/currentWeekNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textColor="@color/red"
+        android:gravity="center_horizontal"/>
+
+    <View
+        android:id="@+id/lineBelowWeekNumber"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#b3b3b3"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_below="@id/currentWeekNumber"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/addNewSchedule"
+        android:layout_below="@id/lineBelowWeekNumber"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textStyle="italic"
+        android:textSize="18dp"
+        android:text="   Нажмите чтобы добавить новую запись..." />
+
+    <View
+        android:id="@+id/lineBelowAddSchedule"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#b3b3b3"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_below="@id/addNewSchedule"/>
+
+    <ListView
+        android:id="@+id/showScheduleListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/lineBelowAddSchedule"/>
+    <TextView
+        android:id="@+id/emptyResults"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/empty_lessons"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:textStyle="bold"
+        android:gravity="center" />
+</RelativeLayout>

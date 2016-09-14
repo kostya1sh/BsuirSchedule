@@ -1,0 +1,55 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="by.bsuir.schedule.MainActivity">
+
+    <item
+        android:id="@+id/subMenuWeekNumber"
+        app:showAsAction="ifRoom"
+        android:title="@string/all_week_number">
+        <menu>
+            <item
+                android:id="@+id/menuAllWeekNumber"
+                android:title="@string/all_week_number"/>
+            <item
+                android:id="@+id/menuFirstWeekNumber"
+                android:title="@string/first_week_number"/>
+            <item
+                android:id="@+id/menuSecondWeekNumber"
+                android:title="@string/second_week_number"/>
+            <item
+                android:id="@+id/menuThirdWeekNumber"
+                android:title="@string/third_week_number"/>
+            <item
+                android:id="@+id/menuFourthWeekNumber"
+                android:title="@string/fourth_week_number"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/subMenuSubGroup"
+        app:showAsAction="ifRoom"
+        android:title="@string/entire_group">
+        <menu>
+            <item
+                android:id="@+id/menuEntireGroup"
+                android:title="@string/entire_group"/>
+            <item
+                android:id="@+id/menuFirstSubGroup"
+                android:title="@string/first_sub_group" />
+            <item
+                android:id="@+id/menuSecondSubGroup"
+                android:title="@string/second_sub_group" />
+        </menu>
+    </item>
+
+
+
+    <item
+        android:id="@+id/menuShowHidden"
+        android:checkable="true"
+        android:checked="false"
+        android:title="Показывать скрытые записи"/>
+
+
+</menu>
